@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hunter Arbeeny's Portfolio</title>
+    <link rel="shortcut icon" href="./assets/Ultra_ball.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Hunter Arbeeny</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Hunter Arbeeny</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div> 
+    </nav>
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="./assets/ha_pf_Image.jpeg" alt="Hunter Arbeeny profile picture">
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello, I'm</p>
+            <h1 class="title">Hunter Arbeeny</h1>
+            <p class="section_text_p2">FullStack Developer</p>
+            <div class="btn-container">
+                <button 
+                class="btn btn-color-2" 
+                onclick="window.open('./assets/resume-example.pdf')">Download CV</button>
+                <button 
+                class="btn btn-color-1" 
+                onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/huntarb/'">
+                <img src="./assets/github.png" alt="My Github profile profile" class="icon" onclick="location.href='https://github.com/harbeeny'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="class_text_p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section_pic-container">
+                <img 
+                src="./assets/ha_about.png" 
+                alt="Profile picture"
+                class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img 
+                        src="./assets/experience.png" 
+                        alt="Experience Icon"
+                        class="icon">
+                        <h3>Experience</h3>
+                        <p>4+ months<br/>FullStack Development</p>
+                    </div>
+                    <div class="details-container">
+                        <img 
+                        src="./assets/education.png" 
+                        alt="Education icon"
+                        class="icon">
+                        <h3>Education</h3>
+                        <p>B.Sc. Buisness Managment<br/>UA Eller College of Managment</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        I'm based in the vibrant New York Metro Area and I've taken a unique path into the world of software engineering, teaching myself the ropes along the way. As a career changer, I bring a fresh perspective and a genuine enthusiasm for learning and adapting to new challenges. With a growth mindset, I thrive on problem-solving and continuous improvement. Outside of the tech world, I'm deeply passionate about gaming and staying active, constantly seeking to balance work and play.👨🏻‍💻👾🏋🏻
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img 
+        src="./assets/arrow.png" 
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'">
+    </section>
+    <section id="experience">
+        <p class="section_text_p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="skills-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="skills-sub-title">Tech Stack</h2>               
+                    <div class="article-container">
+                        <article>
+                            <img 
+                        src="./assets/html5.png" 
+                        alt="HTML Icon"
+                        class="icon">
+                        <div>
+                            <h3>HTML</h3>
+                        </div>
+                        </article>
+                        <article>
+                            <img 
+                        src="./assets/css3.png" 
+                        alt=" css Icon"
+                        class="icon">
+                        <div>
+                            <h3>CSS</h3>
+                        </div>
+                        </article>
+                        <article>
+                            <img 
+                        src="./assets/javascript.png" 
+                        alt=" Js Icon"
+                        class="icon">
+                        <div>
+                            <h3>Javascript</h3>
+                        </div>
+                        </article>
+                        <article>
+                            <img 
+                        src="./assets/react_icon.png" 
+                        alt=" React Icon"
+                        class="icon">
+                        <div>
+                            <h3>Reactjs</h3>
+                        </div>
+                        </article>
+                        <article>
+                            <img 
+                        src="./assets/python_icon.png" 
+                        alt=" Python Icon"
+                        class="icon">
+                        <div>
+                            <h3>Python</h3>
+                        </div>
+                        </article>
+                        <article>
+                            <img 
+                        src="./assets/vscode.png" 
+                        alt=" VScode icon"
+                        class="icon">
+                        <div>
+                            <h3>VScode</h3>
+                        </div>
+                        </article>
+                        <article>
+                            <img 
+                        src="./assets/git.png" 
+                        alt=" Git Icon"
+                        class="icon">
+                        <div>
+                            <h3>Git</h3>
+                        </div>
+                        </article>
+                        <article>
+                            <img 
+                        src="./assets/github.png" 
+                        alt=" Github Icon"
+                        class="icon">
+                        <div>
+                            <h3>Github</h3>
+                        </div>
+                        </article>
+                        <article>
+                            <img 
+                        src="./assets/sql-icon.png" 
+                        alt=" SQL Icon"
+                        class="icon">
+                        <div>
+                            <h3>SQL</h3>
+                        </div>
+                        </article>
+                        <article>
+                            <img 
+                        src="./assets/django_icon.png" 
+                        alt=" Django Icon"
+                        class="icon">
+                        <div>
+                            <h3>Django</h3>
+                        </div>
+                        </article>
+                        <article>
+                            <img 
+                        src="./assets/typescript_icon.png" 
+                        alt="Typescript Icon"
+                        class="icon">
+                        <div>
+                            <h3>Typescript</h3>
+                        </div>
+                        </article>
+                </div>
+            </div>
+        </div>
+        <img 
+        src="./assets/arrow.png" 
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"/>
+    </section>
+    <section id="projects">
+        <p class="section_text_p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="skills-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img 
+                        src="./assets/project-1.png" 
+                        alt="Amazon Web-Scraper" 
+                        class="project-img">
+                    </div>
+                    <h2 class="skills-sub-title project-title">Personal Portfolio</h2>
+                        <span id="proj-stack">HTML | CSS | Javascript </span>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Live Demo</button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img 
+                        src="./assets/project-1.png" 
+                        alt="Personal Project" 
+                        class="project-img">
+                    </div>
+                    <h2 class="skills-sub-title project-title">Amazon Web-Scraper</h2>
+                        <span id="proj-stack">Node.js | Typescript | Rest API's | MongoDB</span>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Live Demo</button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img 
+                        src="./assets/project-2.png" 
+                        alt="Snake Game" 
+                        class="project-img">
+                    </div>
+                    <h2 class="skills-sub-title project-title">Snake Game</h2>
+                        <span id="proj-stack">Python</span>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Live Demo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img 
+        src="./assets/arrow.png" 
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"/>
+    </section>
+    <section id="contact">
+        <p class="section_text_p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img 
+                src="./assets/email.png" 
+                alt="Email icon"
+                class="icon contact-icon email-icon"/>
+                <p><a href="mailto:hntrbeeny@gmail.com">My Email</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img 
+                src="./assets/linkedin.png" 
+                alt="LinkedIn icon"
+                class="icon contact-icon"/>
+                <p><a href="https://www.linkedin.com/in/huntarb/" target="_blank">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Hunter Arbeeny. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
