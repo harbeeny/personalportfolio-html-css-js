@@ -1,7 +1,9 @@
 Center Experience page 
-Finish 3 personal projects
-Create Resume
+Finish Figma Clone
+Finish Web Scraper
+Update Webscraper link in resume 
+Attach Resume to portfolio
 Import Resume  
-insert three personal projects with their names and delopy live 
-
+Import Pictures of my 3 projects
+import 3 live demos of projects
 
