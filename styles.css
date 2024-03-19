@@ -361,21 +361,27 @@ article .icon{
     background: rgb(250,250,250);
 }
 
-.project-img{
+.project-img {
     border-radius: 2rem;
-    width: 90%;
-    height: 90%;
+    max-width: 100%; /* Makes the image responsive */
+    max-height: 400px; /* Consider aspect ratios for better responsiveness */
+    object-fit: cover;
+    width: 450px; /* Maintain aspect ratio */
+    height: 350px; /* Maintain aspect ratio */
 }
 
-.project-title{
+.project-title, .project-btn {
     margin: 1rem;
-    color: black;
+    color: var(--text-color);
 }
 
-.project-btn{
-    color: black;
-    border-color: rgb(163,163,163);
+.project-btn {
+    border-color: var(--border-color);
     display: flex;
+    padding: 0.5rem 1rem; /* Example padding, adjust as needed */
+    text-decoration: none; /* Assuming it's a link styled as a button */
+    align-items: center;
+    justify-content: center;
 }
 
 #proj-stack{
